@@ -19,6 +19,15 @@
 .text{
     color: white;
     padding: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.button {
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: white;
+    background: red;
 }
 
 
