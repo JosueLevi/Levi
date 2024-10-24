@@ -24,6 +24,7 @@
     /* background-image: url(../img/bg2.svg); */
     font-weight: bold;
     height: 100vh;
+    
 }
 
 .text{
@@ -35,13 +36,23 @@
 }
 
 .button {
+    position: absolute;
     text-decoration: none;
-    padding: 15px 50px;
-    border-radius: 5px;
-    border-color: white;
+    padding: 20px 70px;
+    color: var(--primary-color);
+    border-radius: 8px;
+    border-color: 3px solid red;
     background: white;
+    right: 20%;
+    bottom: 20%;
+    transition: 0.65s;
 }
 
+.button:hover{
+    background-color: transparent;
+    border: 3px dashed white;
+    color: white;
+}
 
 .cliente{
     
