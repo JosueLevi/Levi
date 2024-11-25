@@ -49,6 +49,16 @@ header nav ul{
 header nav{
     border-left: 1px solid var(--border-color);
 }
+
+.description{
+    text-align: justify;
+}
+
+.cursive{
+    font-style: italic;
+}
+
+
 .carousel{
     margin-top: -80px;
     width: 100%;
@@ -76,7 +86,7 @@ header nav{
     top: 50px;
     left: 50px;
     content: '';
-    background-color: #e31b48;
+    background-color: #f33962;
     width: 400px;
     height: 300px;
     z-index: 10;
@@ -108,7 +118,7 @@ header nav{
 .carousel .list .item .image img{
     width: 90%;
     margin-bottom: 20px;
-    filter: drop-shadow(0 150px 50px #9e0c0c55);
+    filter: drop-shadow(0 150px 50px #fe9b9b55);
 }
 .carousel .list .item .image figcaption{
     font-family: 'Aboreto';
@@ -146,6 +156,29 @@ header nav{
     border: none;
     margin-top: 20px;
 }
+
+.btn{
+
+    position: absolute;
+    background-color: #2d2e2d;
+    color: #fff;
+    padding: 10px  30px;
+    font-family: Poppins;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 15px;
+    border: none;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #363636;
+    border: #000 solid 3px;
+
+}
+
 .arrows{
     position: absolute;
     bottom: 20px;

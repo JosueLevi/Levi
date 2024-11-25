@@ -47,8 +47,8 @@ const changeSlider = () => {
     clearInterval(autoPlay);
     autoPlay = setInterval(() => {
         next.click();
-    }, 5000);
+    }, 10000);
 }
 let autoPlay = setInterval(() => {
     next.click();
-}, 5000);
+}, 10000);
