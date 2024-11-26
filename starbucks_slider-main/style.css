@@ -4,7 +4,7 @@ body{
     font-family: Poppins;
     margin: 0;
     font-size: 16px;
-    background-color: #4f8b69;
+    background-color: #e7f1ec;
 }
 *{
     box-sizing: border-box;
@@ -54,6 +54,8 @@ header nav{
     text-align: justify;
 }
 
+
+
 .cursive{
     font-style: italic;
 }
@@ -86,7 +88,7 @@ header nav{
     top: 50px;
     left: 50px;
     content: '';
-    background-color: #f33962;
+    background-color: #f26e8a;
     width: 400px;
     height: 300px;
     z-index: 10;
